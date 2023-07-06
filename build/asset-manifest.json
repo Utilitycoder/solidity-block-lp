@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d48b411.css",
+    "main.js": "/static/js/main.6b77a5d4.js",
+    "static/media/Agric.png": "/static/media/Agric.b8f43a754169f73a55a5.png",
+    "index.html": "/index.html",
+    "main.9d48b411.css.map": "/static/css/main.9d48b411.css.map",
+    "main.6b77a5d4.js.map": "/static/js/main.6b77a5d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d48b411.css",
+    "static/js/main.6b77a5d4.js"
+  ]
+}
