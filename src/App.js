@@ -9,7 +9,7 @@ import Story from "./components/Story";
 const App = () => {
   return (
       <div className="w-full min-h-screen min-w-fit">
-        <div className="bg-black">
+        <div className="bg-navy-blue">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />

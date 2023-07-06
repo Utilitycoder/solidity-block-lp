@@ -1,5 +1,5 @@
 import React from "react";
-import Agric from "../Assets/Agric.png";
+import Picture from "../Assets/screen1.png";
 import { BsShieldFillCheck } from "react-icons/bs";
 import { BiSearchAlt } from "react-icons/bi";
 import { RiHeart2Fill } from "react-icons/ri";
@@ -14,7 +14,7 @@ const StoryCard = ({ color, title, icon, subtitle }) => (
     </div>
     <div className="ml-5 flex flex-col justify-start">
       <h3 className="mt-2 text-lg">{title}</h3>
-      <p className="mt-1 text-sm md:w-9/12">
+      <p className="mt-1 text-sm md:w-9/12 text-justify">
         {subtitle}
       </p>
     </div>
@@ -33,17 +33,17 @@ const Home = () => {
             <p className="text-left text-light mt-3 text-white font-light md:w-9/12 w-11/12 text-base">
             Are you ready to unlock the world of blockchain development? Solidity Blocks is here to guide you on your journey to becoming a proficient Solidity programmer. With our innovative platform, you can learn and master Solidity, the programming language that powers smart contracts on the Ethereum blockchain, in a fun and interactive way.
             </p>
-            <div className="flex flex-wrap mt-3">
+            <div className="flex flex-wrap mt-4">
               <FaYoutube size={24} className="text-white"/>
               <span className="ml-3 text-white">See how it works</span>
             </div>
           </div>
           <div>
-            <img src={Agric} alt="agric" className="w-96 mr-4" />
+            <img src={Picture} alt="agric" className="w-96 h-80 mr-4" />
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-around bg-white text-black p-10">
+      <div className="flex flex-wrap justify-around bg-light-gray text-black p-10">
             <StoryCard
               color="bg-[#2952E3]"
               title="Learn Solidity at Your Own Pace"

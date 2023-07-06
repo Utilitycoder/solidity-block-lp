@@ -7,12 +7,12 @@ const Paragraph = ({ content }) => (
 const Story = () => {
   return (
     <div className="w-full min-h-screen min-w-fit">
-      <div class="flex items-center justify-center">
-        <div className="text-black bg-white p-5 text-justify">
-          <h1 className="mb-4 text-bold" >Introducing Solidity Blocks: My Passion Project as a Rising Blockchain
+      <div class="flex items-center justify-center bg-white">
+        <div className="text-black p-5 text-justify mx-10">
+          <h1 className="mb-4 font-bold text-xl" >Introducing Solidity Blocks: My Passion Project as a Rising Blockchain
           Developer
           </h1> 
-          <Paragraph content="Hey there! I'm John, a student at ALX Africa, and I have a
+          <Paragraph content="Hey there! I'm Abubakar, a student at ALX Africa, and I have a
           burning passion for blockchain technology. Over the years, I've
           immersed myself in the world of smart contracts, honing my skills in
           writing Solidity code. But my journey doesn't stop there. As part of
@@ -74,6 +74,8 @@ const Story = () => {
           imagination. The journey starts now, and I can't wait to see what
           we'll create together. Let's make our mark on the blockchain world
           with Solidity Blocks!" />
+
+          <p className="mb-4"> Check out the other things I am working on <a href="https://github.com/utilitycoder" className="text-green font-bold hover:text-blue">here.</a></p>
         </div>
       </div>
     </div>

@@ -15,13 +15,19 @@ module.exports = {
         'midnight': '#121063',
         'metal': '#565584',
         'tahiti': '#3ab7bf',
-        'silver': '#ecebff',
+        'deep-charcoal': '#222222',
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',
         'green': '#3fc441',
         'blue': '#004AFF',
         'black': '#08090d',
         'hash': '#c6cdcf',
+        'navy-blue': '#080d26',
+        'light-gray': '#f5f5f5',
+        'off-white': '#f8f8f8',
+        'muted-blue': '#c4d1e0',
+        'lavender-shade': '#d8cde3',
+        
       },
       extend: {
         screens: {
